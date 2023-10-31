@@ -1,0 +1,71 @@
+package com.bsc.stokoin.category.domain.enums;
+
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
+public enum CategoryEnums {
+    BTC("BTC", "비트코인 그룹"),
+    BCH("BCH", "비트코인-캐시"),
+    BSV("BSV", "비트코인에스브이"),
+    BTG("BTG", "비트코인골드"),
+    ETH("ETH", "이더리움 그룹"),
+    ETC("ETC", "이더리움클래식"),
+    AXS("AXS", "엑시인피니티"),
+    THETA("THETA", "쎄타토큰"),
+    SAND("SAND", "샌드박스"),
+    MANA("MANA", "디센트럴랜드"),
+    FLOW("FLOW", "플로우"),
+    CHZ("CHZ", "칠리즈"),
+    ENJ("ENJ", "엔진코인"),
+    GMT("GMT", "스테픈"),
+    WAXP("WAXP", "왁스"),
+    PLA("PLA", "플레이댑"),
+    SOL("SOL", "솔라나"),
+    AAVE("AAVE", "에이브"),
+    KAVA("KAVA", "카바"),
+    INCH("INCH", "1인치네트워크"),
+    JST("JST", "저스트"),
+    KNC("KNC", "카이버네트워크"),
+    AVAX("AVAX", "아발란체"),
+    XLM("XLM", "스텔라루멘"),
+    LINK("LINK", "체인링크"),
+    ETC_SMART("ETC_SMART", "이더리움클래식"),
+    VET("VET", "비체인"),
+    STX("STX", "스택스"),
+    EOS("EOS", "이오스"),
+    NEO("NEO", "네오"),
+    CRO("CRO", "크로노스"),
+    ENJ_GAME("ENJ_GAME", "게임"),
+    RFR("RFR", "리퍼리움"),
+    BAT("BAT", "광고산업"),
+    STORJ("STORJ", "스토리지"),
+    SC("SC", "시아코인"),
+    ETH_DEX("ETH_DEX", "분산화거래소"),
+    WAVES("WAVES", "웨이브"),
+    ZRX("ZRX", "제로엑스프로토콜"),
+    SNT("SNT", "소셜네트워킹"),
+    ANKR("ANKR", "연산력임대서비스"),
+    GLM("GLM", "골렘"),
+    ONT("ONT", "인증서비스"),
+    CVC("CVC", "시빅"),
+    META("META", "메타디움"),
+    TRX("TRX", "컨텐츠 생산 및 중개"),
+    TFUEL("TFUEL", "쎄타퓨엘"),
+    IQ("IQ", "아이큐"),
+    MBL("MBL", "무비블록"),
+    ADA("ADA", "플랫폼"),
+    ZIL("ZIL", "질리카"),
+    QTUM("QTUM", "퀀텀"),
+    XEM("XEM", "넴"),
+    ICX("ICX", "아이콘"),
+    STEEM("STEEM", "SNS 컨텐츠"),
+    SBD("SBD", "스팀달러"),
+    XRP("XRP", "기타"),
+    ARK("ARK", "아크"),
+    DOGE("DOGE", "도지코인");
+
+    private final String code;
+    private final String description;
+}
