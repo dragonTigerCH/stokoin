@@ -14,7 +14,6 @@ public class UserFacade {
 
     private final UserCommandUseCase userCommandUseCase;
 
-
     public void updateUserSimpleInfo(UserSimpleInfoRequest userSimpleInfoRequest, Long id) {
         userCommandUseCase.updateUserSimpleInfo(userSimpleInfoRequest,id);
 
