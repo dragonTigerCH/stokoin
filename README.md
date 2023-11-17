@@ -9,7 +9,6 @@
 - Spring Spring-docs 를 이용한 Swagger API 를 사용하여 API 문서화
 - DB는 MySQL과 Rredis 사용예정
 - 로그 모니터링용 ELK 구축 예정
-- Redis 클러스터 및 모니터링 구축예정
 - Jenkins CI/CD 구축예정
 
 ### Technologies used:
